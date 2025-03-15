@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{07629767-4DD2-4709-9741-8A7DD7B61EED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearableSyncAPI", "WebApplication1\WearableSyncAPI.csproj", "{07629767-4DD2-4709-9741-8A7DD7B61EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearableSyncAPI.Domain", "WearableSyncAPI.Domain\WearableSyncAPI.Domain.csproj", "{9102B108-4D27-46AB-8C4C-EF4D7206EF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearableSyncAPI.Application", "WearableSyncAPI.Application\WearableSyncAPI.Application.csproj", "{303C6062-BE51-439C-B330-054BE7B948D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WearableSyncAPI.Infra", "WearableSyncAPI.Infra\WearableSyncAPI.Infra.csproj", "{960DCA81-8546-4821-9B94-84DDEFD10581}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{07629767-4DD2-4709-9741-8A7DD7B61EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07629767-4DD2-4709-9741-8A7DD7B61EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07629767-4DD2-4709-9741-8A7DD7B61EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9102B108-4D27-46AB-8C4C-EF4D7206EF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9102B108-4D27-46AB-8C4C-EF4D7206EF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9102B108-4D27-46AB-8C4C-EF4D7206EF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9102B108-4D27-46AB-8C4C-EF4D7206EF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303C6062-BE51-439C-B330-054BE7B948D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303C6062-BE51-439C-B330-054BE7B948D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303C6062-BE51-439C-B330-054BE7B948D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303C6062-BE51-439C-B330-054BE7B948D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960DCA81-8546-4821-9B94-84DDEFD10581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960DCA81-8546-4821-9B94-84DDEFD10581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960DCA81-8546-4821-9B94-84DDEFD10581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960DCA81-8546-4821-9B94-84DDEFD10581}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
