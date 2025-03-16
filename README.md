@@ -1,4 +1,4 @@
-# Smartband Data API
+# WearableSync API
 
 ## 📌 Overview
 Smartband Data API is a .NET 9 Web API designed to collect data from wearable devices, starting with the Xiaomi Mi Band 4 using the Zepp Life app to collet data.
@@ -15,11 +15,11 @@ Smartband Data API is a .NET 9 Web API designed to collect data from wearable de
 This project is structured following Clean Architecture principles:
 
 ```
-📂 MinhaApi.Solution
-├── 📁 MinhaApi.API         # Presentation layer (Controllers, Startup configuration)
-├── 📁 MinhaApi.Application # Application layer (Interfaces, UseCases)
-├── 📁 MinhaApi.Domain      # Domain layer (Entities, BaseEntity)
-├── 📁 MinhaApi.Infrastructure # Infrastructure layer (Database, Services, Factories)
+📂 Api.Solution
+├── 📁 Api.API         # Presentation layer (Controllers, Startup configuration)
+├── 📁 Api.Application # Application layer (Interfaces, UseCases)
+├── 📁 Api.Domain      # Domain layer (Entities, BaseEntity)
+├── 📁 Api.Infrastructure # Infrastructure layer (Database, Services, Factories)
 ```
 
 ## 🛠️ Tech Stack
@@ -36,8 +36,8 @@ This project is structured following Clean Architecture principles:
 ### 🔹 Steps to Run
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/smartband-data-api.git
-   cd smartband-data-api
+   git clone https://github.com/yourusername/wearablesync-api.git
+   cd wearablesync-api
    ```
 2. **Configure PostgreSQL Connection String** in `appsettings.json`
    ```json
