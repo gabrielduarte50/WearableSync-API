@@ -17,7 +17,7 @@ public class SmartbandController : ControllerBase
     {
         try
         {
-            IManagerSmartbandData service = SmartbandFactory.CriarGerenciador(model);
+            IManagerSmartbandData service = SmartbandFactory.ManagerData(model);
             DataHealth dados = await service.GetSmartbandData();
             return Ok(dados);
         }

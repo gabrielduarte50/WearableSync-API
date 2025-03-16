@@ -5,7 +5,7 @@ namespace WearableSyncAPI.Infra.Factory;
 
 public class SmartbandFactory
 {
-    public static IManagerSmartbandData CriarGerenciador(string model)
+    public static IManagerSmartbandData ManagerData(string model)
     {
         return model switch
         {
