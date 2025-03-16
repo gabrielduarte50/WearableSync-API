@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\WearableSyncAPI.Application\WearableSyncAPI.Application.csproj" />
     <ProjectReference Include="..\WearableSyncAPI.Infra\WearableSyncAPI.Infra.csproj" />
   </ItemGroup>
