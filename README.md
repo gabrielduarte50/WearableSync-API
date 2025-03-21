@@ -54,6 +54,9 @@ This project is structured following Clean Architecture principles:
    dotnet run --project MinhaApi.API
    ```
 
+
+   -- to study and try to use - connect google fit to load data from mi band 4
+
 ## 📜 License
 This project is open-source and available under the [MIT License](LICENSE).
 
